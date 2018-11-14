@@ -90,13 +90,13 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="4.8"
-            app:fontFamily="sans-serif"
+            app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintHorizontal_bias="0.445"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.92" />
+            app:layout_constraintVertical_bias="0.921" />
 
         <TextView
             android:id="@+id/textView11"
@@ -109,13 +109,13 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="Santa Fe Drive"
-            app:fontFamily="sans-serif"
+            app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.367"
+            app:layout_constraintHorizontal_bias="0.326"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.633" />
+            app:layout_constraintVertical_bias="0.627" />
 
         <TextView
             android:id="@+id/textView10"
@@ -128,13 +128,13 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="P1000 - P1300"
-            app:fontFamily="sans-serif"
+            app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.339"
+            app:layout_constraintHorizontal_bias="0.445"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.376" />
+            app:layout_constraintVertical_bias="0.372" />
 
         <TextView
             android:id="@+id/textView9"
@@ -239,13 +239,13 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="4.6"
-            app:fontFamily="sans-serif"
+            app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintHorizontal_bias="0.428"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.92" />
+            app:layout_constraintVertical_bias="0.921" />
 
         <TextView
             android:id="@+id/textView11"
@@ -258,10 +258,10 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="Wellside Avenue"
-            app:fontFamily="sans-serif"
+            app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.367"
+            app:layout_constraintHorizontal_bias="0.343"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.633" />
@@ -277,13 +277,13 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="P200 - P300"
-            app:fontFamily="sans-serif"
+            app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.276"
+            app:layout_constraintHorizontal_bias="0.364"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.362" />
+            app:layout_constraintVertical_bias="0.372" />
 
         <TextView
             android:id="@+id/textView9"
@@ -405,7 +405,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="4.1"
-            app:fontFamily="sans-serif"
+            app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.411"
@@ -424,13 +424,13 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="Sunnytown Street"
-            app:fontFamily="sans-serif"
+            app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.367"
+            app:layout_constraintHorizontal_bias="0.359"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.633" />
+            app:layout_constraintVertical_bias="0.627" />
 
         <TextView
             android:id="@+id/textView10"
@@ -443,10 +443,10 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="P500 - P700"
-            app:fontFamily="sans-serif"
+            app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.276"
+            app:layout_constraintHorizontal_bias="0.364"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.362" />
