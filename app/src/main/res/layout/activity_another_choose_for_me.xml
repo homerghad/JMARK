@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorTeal"
-    tools:context=".activity.ChooseForMeActivity">
+    tools:context=".activity.AnotherChooseForMeActivity">
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/cardView"
@@ -39,7 +39,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            tools:text="Din Tai Fung" />
+            tools:text="Walrus" />
 
         <TextView
             android:id="@+id/textView6"
@@ -89,7 +89,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="4.8"
+            android:text="4.5"
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -108,7 +108,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Santa Fe Drive"
+            android:text="Katipunan Avenue"
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -127,7 +127,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="P1000 - P1300"
+            android:text="P100 - P300"
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -188,7 +188,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            tools:text="Frankie's" />
+            tools:text="Flaming Wings" />
 
         <TextView
             android:id="@+id/textView6"
@@ -238,7 +238,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="4.6"
+            android:text="4.0"
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -257,7 +257,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Wellside Avenue"
+            android:text="Katipunan Avenue"
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -276,7 +276,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="P200-P400"
+            android:text="P150-P400"
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -348,7 +348,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            tools:text="Genki Sushi" />
+            tools:text="Jollibee" />
 
         <TextView
             android:id="@+id/textView6"
@@ -398,7 +398,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="4.1"
+            android:text="3.7"
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -417,7 +417,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="P500-P700"
+            android:text="P100 - P200"
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -436,7 +436,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Sunnytown Street"
+            android:text="Katipunan Avenue"
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
