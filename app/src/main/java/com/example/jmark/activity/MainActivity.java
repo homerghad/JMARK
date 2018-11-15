@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void goToLetMeChooseActivity(View view) {
-        Intent intent = new Intent(this, LetMeChooseActivity.class);
+    public void goToQuestionActivity(View view) {
+        Intent intent = new Intent(this, QuestionTwoActivity.class);
         /*EditText editText = (EditText) findViewById(R.id.editText);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);*/
