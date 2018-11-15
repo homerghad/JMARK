@@ -3,15 +3,29 @@ package com.example.jmark.activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
 import com.example.jmark.R;
+import com.example.jmark.dataobject.MySingleton;
+import com.example.jmark.dataobject.RecyclerAdapter;
+import com.example.jmark.dataobject.Restaurant;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
+import java.util.List;
 
 public class ChooseForMeActivity extends AppCompatActivity {
-
+    private RecyclerView recyclerView;
+    private RecyclerView.LayoutManager layoutManager;
+    private String server_url = "http://192.168.1.1/SaanKakain/SaanKakain.php";
+    private RecyclerAdapter adapter;
     /*Restaurant restaurant1;
     Restaurant restaurant2;
     Restaurant restaurant3;
@@ -24,22 +38,37 @@ public class ChooseForMeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_for_me);
+        recyclerView = (RecyclerView)findViewById(R.id.recyclerView);
+        layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setHasFixedSize(true);
 
-        /*restaurant1 = new Restaurant(1, true, false, false, "BonChon", "2nd Floor, Regis Center, Katipunan Ave.", new Tag());
-        restaurant2 = new Restaurant(2, false, true, false, "Tori Chizu", "2nd Floor, Regis Center, Katipunan Ave.", new Tag());
-        restaurant3 = new Restaurant(2, false, false, true, "Samgyupsalamat", "2nd Floor, Regis Center, Katipunan Ave.", new Tag());
+        getInformation();
 
-        restaurantList.add(restaurant1);
-        restaurantList.add(restaurant2);
-        restaurantList.add(restaurant3);
-
-        for (Restaurant restaurant : restaurantList) {
-            button = new Button(ChooseForMeActivity.this);
-            button.setText(restaurant.getName());
-
-        }*/
     }
 
+    private void getInformation()
+    {
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, server_url,
+                new Response.Listener<String>() {
+            @Override
+                    public void onResponse(String response) {
+                GsonBuilder builder = new GsonBuilder();
+                Gson gson = builder.create();
+
+                List<Restaurant> list = Arrays.asList(gson.fromJson(response, Restaurant[].class));
+                adapter = new RecyclerAdapter(list);
+                recyclerView.setAdapter(adapter);
+            }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+        MySingleton.getInstance(this).addToRequestQue(stringRequest);
+    }
     public void goToChosenRestaurantActivity(View view) {
         Intent intent = new Intent(this, ChosenRestaurantActivity.class);
         /*EditText editText = (EditText) findViewById(R.id.editText);
