@@ -64,7 +64,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorTeal"
-        android:onClick="goToQuestionTwoActivity"
+        android:onClick="goToQuestionActivity"
         android:text="let me choose"
         android:textColor="@color/colorWhite"
         app:fontFamily="@font/abc"
