@@ -24,12 +24,12 @@ public class QuestionFiveActivity extends Activity {
     }
     public void buttonOne(View view){
         mylist.add("15");
-        Intent intent = new Intent(this,QuestionFiveActivity.class).putExtra("mylist",mylist);
+        Intent intent = new Intent(this,ChosenRestaurantActivity.class).putExtra("mylist",mylist);
         startActivity(intent);
     }
     public void buttonTwo(View view){
         mylist.add("16");
-        Intent intent = new Intent(this,QuestionFiveActivity.class).putExtra("mylist",mylist);
+        Intent intent = new Intent(this,ChosenRestaurantActivity.class).putExtra("mylist",mylist);
         startActivity(intent);
     }
 }
