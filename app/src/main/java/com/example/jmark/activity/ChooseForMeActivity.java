@@ -10,6 +10,8 @@ import com.example.jmark.R;
 import java.util.HashMap;
 import java.util.Map;
 
+
+
 public class ChooseForMeActivity extends AppCompatActivity {
 
     /*Restaurant restaurant1;
