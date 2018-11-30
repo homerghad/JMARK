@@ -14,6 +14,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorWhite"
+        android:onClick="restaurantThree"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +22,7 @@
         app:layout_constraintVertical_bias="0.906">
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/title2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="88dp"
@@ -99,7 +100,7 @@
             app:layout_constraintVertical_bias="0.92" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/address2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -112,13 +113,12 @@
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.326"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.627" />
+            app:layout_constraintVertical_bias="0.63" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/budget2"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:layout_marginBottom="8dp"
@@ -163,6 +163,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorWhite"
+        android:onClick="restaurantTwo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -170,7 +171,7 @@
         app:layout_constraintVertical_bias="0.534">
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/title1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="88dp"
@@ -248,7 +249,7 @@
             app:layout_constraintVertical_bias="0.92" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/address1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -261,13 +262,13 @@
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.343"
+            app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.633" />
+            app:layout_constraintVertical_bias="0.63" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/budget1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -309,12 +310,21 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="496dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:text="The results are in!"
         android:textColor="@color/colorWhite"
         android:textSize="30sp"
         app:fontFamily="@font/abc"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="24dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/cardView"
@@ -323,6 +333,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorWhite"
+        android:onClick="restaurantOne"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -330,7 +341,7 @@
         app:layout_constraintVertical_bias="0.163">
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/title0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="88dp"
@@ -408,7 +419,7 @@
             app:layout_constraintVertical_bias="0.92" />
 
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/budget0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -427,7 +438,7 @@
             app:layout_constraintVertical_bias="0.34" />
 
         <TextView
-            android:id="@+id/textView21"
+            android:id="@+id/address0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -440,10 +451,10 @@
             app:fontFamily="@font/abc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.359"
+            app:layout_constraintHorizontal_bias="0.532"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.627" />
+            app:layout_constraintVertical_bias="0.63" />
 
         <TextView
             android:id="@+id/textView22"

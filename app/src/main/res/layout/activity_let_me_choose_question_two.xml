@@ -12,13 +12,13 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginLeft="162dp"
-        android:layout_marginTop="121dp"
+        android:layout_marginBottom="367dp"
         android:layout_marginEnd="164dp"
+        android:layout_marginLeft="162dp"
         android:layout_marginRight="164dp"
-        android:layout_marginBottom="371dp"
-        android:text="What kind of restaurant?"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="121dp"
+        android:text=""
         android:textColor="@color/colorGray"
         android:textSize="22sp"
         app:fontFamily="@font/abc"
@@ -36,7 +36,6 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorTeal"
-        android:text="Fast Food"
         android:onClick="buttonOne"
         android:textColor="@color/colorWhite"
         app:fontFamily="@font/abc"
@@ -55,7 +54,6 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorTeal"
-        android:text="Fast Casual"
         android:onClick="buttonTwo"
         android:textColor="@color/colorWhite"
         app:fontFamily="@font/abc"
@@ -63,8 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518"
-        tools:text="Fast Casual" />
+        app:layout_constraintVertical_bias="0.518" />
 
     <Button
         android:id="@+id/button3"
@@ -73,7 +70,6 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorTeal"
-        android:text="Casual Dining"
         android:onClick="buttonThree"
         android:textColor="@color/colorWhite"
         app:fontFamily="@font/abc"
@@ -82,8 +78,7 @@
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.635"
-        tools:text="Casual Dining" />
+        app:layout_constraintVertical_bias="0.635" />
 
     <Button
         android:id="@+id/button4"
@@ -92,7 +87,6 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorTeal"
-        android:text="Fine Dining"
         android:onClick="buttonFour"
         android:textColor="@color/colorWhite"
         app:fontFamily="@font/abc"
@@ -101,8 +95,7 @@
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.753"
-        tools:text="FINE DINING" />
+        app:layout_constraintVertical_bias="0.753" />
 
     <Button
         android:id="@+id/button5"
@@ -111,7 +104,6 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorTeal"
-        android:text="Kiosk/Stall"
         android:onClick="buttonFive"
         android:textColor="@color/colorWhite"
         app:fontFamily="@font/abc"
@@ -120,7 +112,6 @@
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87"
-        tools:text="KIOSK/STALL" />
+        app:layout_constraintVertical_bias="0.87" />
 
 </android.support.constraint.ConstraintLayout>

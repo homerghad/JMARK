@@ -36,7 +36,6 @@
         android:layout_marginRight="152dp"
         android:layout_marginStart="151dp"
         android:layout_marginTop="101dp"
-        android:text="Genki Sushi"
         android:textColor="@color/colorGray"
         android:textSize="36sp"
         app:fontFamily="@font/abc"

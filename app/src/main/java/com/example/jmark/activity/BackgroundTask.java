@@ -33,7 +33,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
     }
     @Override
     protected String doInBackground(String... params){
-        String question_url = "http://10.0.2.2/saankakain/question_script.php";
+        String question_url = "https://shielded-beach-88931.herokuapp.com/question_script.php";
         String tag_url = "http://10.0.2.2/saankakain/tag_script.php";
         String answer_url = "http://10.0.2.2/saankakain/answer_script.php";
         String method = params[0];

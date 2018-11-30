@@ -22,10 +22,12 @@
         <activity
             android:name=".activity.LetMeChooseActivity"
             android:parentActivityName=".activity.MainActivity" />
-        <activity android:name=".activity.ChosenRestaurantActivity"/>
+
         <activity android:name=".activity.QuestionTwoActivity"/>
         <activity android:name=".activity.QuestionThreeActivity"/>
         <activity android:name=".activity.QuestionFiveActivity"></activity>
+        <activity android:name=".activity.AnotherChooseForMeActivity"></activity>
+        <activity android:name=".activity.ChosenRestaurantActivity"/>
     </application>
 
 
