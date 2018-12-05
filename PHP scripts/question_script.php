@@ -1,9 +1,9 @@
 <?php
-require "init.php";
+require "connect.php";
 $question_id = $_POST["Question_ID"];
 
 $sql_query = "SELECT Question_Text FROM QUESTION WHERE Question_ID = $question_id";
-$result = mysqli_query($con,$sql_query);
+$result = mysqli_query($dbc,$sql_query);
 
 if(mysqli_num_rows($result)>0){
 	$row = mysqli_fetch_assoc($result);

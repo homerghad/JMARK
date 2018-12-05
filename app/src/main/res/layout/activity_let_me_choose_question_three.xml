@@ -17,7 +17,10 @@
         android:layout_marginEnd="164dp"
         android:layout_marginRight="164dp"
         android:layout_marginBottom="371dp"
+<<<<<<< HEAD
         android:text=" Any ethnic preference?"
+=======
+>>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
         android:textColor="@color/colorGray"
         android:textSize="22sp"
         app:fontFamily="@font/abc"
@@ -35,7 +38,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorTeal"
+<<<<<<< HEAD
         android:text="Filipino"
+=======
+>>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
         android:onClick="buttonOne"
         android:textColor="@color/colorWhite"
         app:fontFamily="@font/abc"
@@ -44,8 +50,12 @@
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.403"
         tools:text="Filipino" />
+=======
+        app:layout_constraintVertical_bias="0.403" />
+>>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
 
     <Button
         android:id="@+id/button2"
@@ -54,7 +64,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorTeal"
+<<<<<<< HEAD
         android:text="Chinese"
+=======
+>>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
         android:onClick="buttonTwo"
         android:textColor="@color/colorWhite"
         app:fontFamily="@font/abc"
@@ -62,8 +75,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.518"
         tools:text="Chinese" />
+=======
+        app:layout_constraintVertical_bias="0.518" />
+>>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
 
     <Button
         android:id="@+id/button3"
@@ -72,7 +89,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorTeal"
+<<<<<<< HEAD
         android:text="Japanese"
+=======
+>>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
         android:onClick="buttonThree"
         android:textColor="@color/colorWhite"
         app:fontFamily="@font/abc"
@@ -81,8 +101,12 @@
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.635"
         tools:text="Japanese" />
+=======
+        app:layout_constraintVertical_bias="0.635" />
+>>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
 
     <Button
         android:id="@+id/button4"
@@ -91,7 +115,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorTeal"
+<<<<<<< HEAD
         android:text="American"
+=======
+>>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
         android:onClick="buttonFour"
         android:textColor="@color/colorWhite"
         app:fontFamily="@font/abc"
@@ -100,7 +127,11 @@
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.753"
         tools:text="American" />
+=======
+        app:layout_constraintVertical_bias="0.753" />
+>>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
 
 </android.support.constraint.ConstraintLayout>
