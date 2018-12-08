@@ -22,14 +22,6 @@
         <activity
             android:name=".activity.LetMeChooseActivity"
             android:parentActivityName=".activity.MainActivity" />
-<<<<<<< HEAD
-        <activity android:name=".activity.ChosenRestaurantActivity"/>
-        <activity android:name=".activity.QuestionTwoActivity"/>
-        <activity android:name=".activity.QuestionThreeActivity"/>
-        <activity android:name=".activity.QuestionFiveActivity"></activity>
-    </application>
-
-=======
 
         <activity android:name=".activity.QuestionTwoActivity"/>
         <activity android:name=".activity.QuestionThreeActivity"/>
@@ -41,5 +33,5 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
->>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
+
 </manifest>

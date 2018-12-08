@@ -2,7 +2,6 @@ package com.example.jmark.activity;
 
 import android.app.Activity;
 import android.content.Intent;
-<<<<<<< HEAD
 import android.os.Bundle;
 import android.view.View;
 
@@ -10,10 +9,7 @@ import com.example.jmark.R;
 
 import java.util.ArrayList;
 
-public class QuestionFiveActivity extends Activity {
-    private String q_id;
-    ArrayList<String> mylist;
-=======
+
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -46,29 +42,13 @@ public class QuestionFiveActivity extends Activity {
     private TextView questionText;
 
     private Button b1,b2;
->>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         q_id = "2";
         setContentView(R.layout.activity_let_me_choose_question_five);
-<<<<<<< HEAD
-        BackgroundTask backgroundTask = new BackgroundTask(this);
-        String method = "retrieve";
-        backgroundTask.execute(method, q_id);
-        mylist = (ArrayList<String>) getIntent().getSerializableExtra("mylist");
-    }
-    public void buttonOne(View view){
-        mylist.add("15");
-        Intent intent = new Intent(this,ChosenRestaurantActivity.class).putExtra("mylist",mylist);
-        startActivity(intent);
-    }
-    public void buttonTwo(View view){
-        mylist.add("16");
-        Intent intent = new Intent(this,ChosenRestaurantActivity.class).putExtra("mylist",mylist);
-        startActivity(intent);
-    }
-=======
+
         questionText = (TextView) findViewById(R.id.textView5);
 
         b1 = (Button) findViewById(R.id.button1);
@@ -178,5 +158,5 @@ public class QuestionFiveActivity extends Activity {
             }
         }
     }
->>>>>>> bbc7bb0c309e2e681d12691e3ceb44f506420651
+
 }
