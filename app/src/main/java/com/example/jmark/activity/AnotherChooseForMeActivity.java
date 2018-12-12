@@ -21,7 +21,7 @@ import java.util.ArrayList;
 
 public class AnotherChooseForMeActivity extends AppCompatActivity {
     public static final String MY_PREFS_NAME = "MyPrefsFile";
-    private static final String URL = "https://shielded-beach-88931.herokuapp.com/";
+    private static final String URL = "https://foodfindconsole.herokuapp.com/";
     private static final String ChooseURL = "choose_script.php";
     JSONParser jsonParser = new JSONParser();
     JSONArrayParser jsonArrayParser = new JSONArrayParser();

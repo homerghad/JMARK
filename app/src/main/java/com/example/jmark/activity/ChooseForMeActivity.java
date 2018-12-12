@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 
 public class ChooseForMeActivity extends AppCompatActivity {
-    private static final String URL = "https://shielded-beach-88931.herokuapp.com/";
+    private static final String URL = "https://foodfindconsole.herokuapp.com/";
     private static final String RandomURL = "random_script.php";
     JSONParser jsonParser = new JSONParser();
     JSONArrayParser jsonArrayParser = new JSONArrayParser();
