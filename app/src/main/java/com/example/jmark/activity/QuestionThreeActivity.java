@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 public class QuestionThreeActivity extends Activity {
     public static final String MY_PREFS_NAME = "MyPrefsFile";
-    private static final String URL = "foodfindconsole.herokuapp.com/";
+    private static final String URL = "https://foodfindconsole.herokuapp.com/";
     private static final String QuestionURL = "question_script.php";
     private static final String AnswerURL = "answer_script.php";
     JSONParser jsonParser = new JSONParser();
